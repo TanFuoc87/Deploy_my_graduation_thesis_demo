@@ -101,7 +101,7 @@ def main():
     # Predict 2022
     intro_2022 = '<p style="font-family:Baskerville; color:Black; font-size: 1.2em; font-weight:normal;">👉 Our expectation for the overall coming dividend policy:  <br> </p>'
     st.markdown(intro_2022, unsafe_allow_html= True)
-    predict_2022 = Image.open("C:/Users/Tan Phuoc/Desktop/Coding Stuff/Portfolio 2023/Graduation Thesis_Dividend Forecast/Streamlit_deploy/pages/prediction_2022.png")
+    predict_2022 = Image.open("pages/prediction_2022.png")
     st.image(predict_2022, caption= 'The expectation for coming dividend policy of public companies in Vietnam')
 
     option_2022 = '<p style="font-family:Baskerville; color:Black; font-size: 1.2em; font-weight:normal;"> 👉 Find our 2022 dividend policy prediction of a specific:   <br> </p>'
