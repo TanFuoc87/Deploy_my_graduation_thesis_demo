@@ -1,7 +1,15 @@
 import pickle
 import pandas as pd
 import streamlit as st
- 
+import os.path
+
+#Determine the current directory using os.path.dirname
+current_directory = os.path.dirname(__file__)
+#Determine the parent directory using os.path.split:
+parent_directory = os.path.split(current_directory)[0] # Repeat as needed
+#Join parent_directory with any sub-directories:
+file_path = os.path.join(parent_directory, 'path', 'to', 'file')
+
 # loading the trained model
 pickle_in = open('dividend_policy_predictor.pkl', 'rb') 
 predictor = pickle.load(pickle_in)
