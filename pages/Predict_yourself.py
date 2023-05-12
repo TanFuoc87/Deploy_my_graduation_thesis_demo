@@ -2,6 +2,9 @@ import pickle
 import pandas as pd
 import streamlit as st
 import os.path
+from sklearn.model_selection import train_test_split
+from imblearn.over_sampling import SMOTE
+from sklearn.ensemble import RandomForestClassifier
 
 #Determine the current directory using os.path.dirname
 current_directory = os.path.dirname(__file__)
