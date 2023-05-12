@@ -88,17 +88,17 @@ def main():
 
     hose_text = '<p style="font-family:Baskerville; color:Black; font-size: 1.2em; font-weight:normal;"> 1️⃣ HOSE <br> </p>'
     st.markdown(hose_text, unsafe_allow_html=True)
-    hose = Image.open("/pages/model_performance_HOSE.png")
+    hose = Image.open("pages/model_performance_HOSE.png")
     st.image(hose, caption= 'Efficiency of predicting dividend policy of companies belonging to HOSE')
 
     hnx_text = '<p style="font-family:Baskerville; color:Black; font-size: 1.2em; font-weight:normal;"> 2️⃣ HNX <br> </p>'
     st.markdown(hnx_text, unsafe_allow_html=True)
-    hnx = Image.open("/pages/model_performance_HNX.png")
+    hnx = Image.open("pages/model_performance_HNX.png")
     st.image(hnx, caption= 'Efficiency of predicting dividend policy of companies belonging to HNX')
     
     upcom_text = '<p style="font-family:Baskerville; color:Black; font-size: 1.2em; font-weight:normal;"> 3️⃣ UPCOM <br> </p>'
     st.markdown(upcom_text, unsafe_allow_html=True)
-    upcom = Image.open("/pages/model_performance_UPCOM.png")
+    upcom = Image.open("pages/model_performance_UPCOM.png")
     st.image(upcom, caption= 'Efficiency of predicting dividend policy of companies belonging to UPCOM')
 
      
