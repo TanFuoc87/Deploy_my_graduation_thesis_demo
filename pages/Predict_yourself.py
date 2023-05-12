@@ -1,6 +1,7 @@
 import pickle
 import pandas as pd
 import streamlit as st
+import sklearn
  
 # loading the trained model
 pickle_in = open('dividend_policy_predictor.pkl', 'rb') 
