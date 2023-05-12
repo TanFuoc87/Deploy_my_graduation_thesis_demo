@@ -11,7 +11,7 @@ parent_directory = os.path.split(current_directory)[0] # Repeat as needed
 file_path = os.path.join(parent_directory, 'path', 'to', 'file')
 
 # loading the trained model
-pickle_in = open(f'{file_path}/dividend_policy_predictor.pkl', 'rb') 
+pickle_in = open(f'{parent_directory}/dividend_policy_predictor.pkl', 'rb') 
 predictor = pickle.load(pickle_in)
 
 #load demo result
