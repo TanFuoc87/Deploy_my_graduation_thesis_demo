@@ -4,8 +4,8 @@ import pandas as pd
 from PIL import Image
 
 #load demo result
-result = pd.read_pickle('result.pkl')
-result_2022 = pd.read_pickle('result2022.pkl')
+result = pd.read_pickle('pages/result.pkl')
+result_2022 = pd.read_pickle('pages/result2022.pkl')
 stock_code ='' 
 
 def view_result_2022(stock_name):
