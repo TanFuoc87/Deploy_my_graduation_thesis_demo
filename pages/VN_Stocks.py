@@ -3,11 +3,6 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
- 
-# loading the trained model
-pickle_in = open('dividend_policy_predictor.pkl', 'rb') 
-predictor = pickle.load(pickle_in)
-
 #load demo result
 result = pd.read_pickle('result.pkl')
 result_2022 = pd.read_pickle('result2022.pkl')
