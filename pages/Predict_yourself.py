@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 import streamlit as st
 import os.path
-import sklearn
+from sklearn.utils import resample
 
 #Determine the current directory using os.path.dirname
 current_directory = os.path.dirname(__file__)
