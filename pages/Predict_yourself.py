@@ -154,7 +154,7 @@ def main():
                 font-size: 1.2em;
                 font-weight:normal
                 "
-            >Give us some financial infomation below, we will do our best to predict the upcoming dividend policy!</
+            >Give us some financial infomation of a company in below sectors, we will do our best to predict its upcoming dividend policy!</
         h2>
     </div> 
     """
